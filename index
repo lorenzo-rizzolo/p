@@ -3,15 +3,24 @@
         <style>
             .titolo
             {
-                font-size: 200%;
+                font-size: 250%;
                 font-style: italic;
             }
             .testo
             {
-                font-size: 200%;
+                font-size: 170%;
                 font-family: Arial, Helvetica, sans-serif;
             }
-        </style>
+            .tit
+            {
+                font-size: 200%;
+                font-style: italic;
+            }        
+</style>
     </head>
+
+    <div class="titolo"><h1>Compiti in C</h1></div>
+
+
     <a href="\matrici\1. matrici.c"download>file_download.</a>
 </html>
