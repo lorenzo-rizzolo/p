@@ -39,6 +39,7 @@ main()
         
         printf("\n");
     }
+    printf("E' una scacchiera.");
     
 
 }
