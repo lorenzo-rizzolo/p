@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-main()
+int main()
 {
-    int v[2][3];
-    int c, r,n=0 ,num ,f;
+    int v[5][5];
+    int c, r,num ,f;
 
-    printf("scacchiera matrice.\n");
+    printf("scacchiera matrice partendo da 0.\n");
+    v[0][0]=0;
+    
     
     for(r=0;r<5;r++)
     {
-        for(c=0;c<5;c++)
+        for(c=1;c<=5;c++)
         {
             printf("inserire numero: ");
             scanf("%d", &num);
@@ -17,7 +19,16 @@ main()
             {
                 f=c-1;
                 if(num!=v[r][f])
-                v[r][c]=num;
+                {
+                    printf("102");
+                    v[r][c]=num;
+                }
+                else
+                { 
+                    printf("non e' una scacchiera.");
+                    return 0;
+                }
+                
             }
             else
             { 
@@ -41,5 +52,5 @@ main()
     }
     printf("E' una scacchiera.");
     
-
+return 0 ;
 }
