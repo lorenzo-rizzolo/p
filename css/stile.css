@@ -5,6 +5,10 @@ body{
     font-family: 'Open Sans';
     background: #006655;
 }
+.testo{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .contenitore{
     width: 50%;
     margin: 10% auto;
