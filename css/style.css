@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.ocm/css?family=Open+Sans);
+
+
+body{
+    font-family: 'Open Sans';
+    background: #006655;
+}
+.contenitore{
+    font-size: 200%;
+    width: 40%;
+    margin: 10% auto;
+    background: #efefef;
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 0px black;
+    margin-top:5%;
+}
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #9c9c97;
+    border-radius: 3px;
+    border-radius: 20px
+}
+input[type="text"], input[type=password], input[type=submit]{
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+input[type="text"], input[type=password]{
+    font-size: 100%;
+    width: 90%;
+    height: 10%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+input[type="text"]:hover, input[type=password]:hover{
+    border-color: black;
+}
+input[type=submit]{
+    width: 100px;
+    height: 50px;
+    background: #009bc7;
+    font-size: 70%;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border-width: 1.5px;
+    border-radius: 5px;
+    border-color: black;
+}
+input[type="text"]:focus, input[type=password]:focus, input[type=submit]:focus{
+    outline: none;
+}
+input[type=submit]:hover{
+    background: #006655;
+    cursor: pointer;
+    color: #fff;   
+    border-color: black;
+    border: ;
+}
+h1,h2,h3,h4,h6{
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
