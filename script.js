@@ -7,7 +7,7 @@ console.log(pass)
 
 if(
 pass=="1209" && utente=="lorenzo" 
-|| pass=="alberto123" && utente=="alberto"
+
 ){   //password
     window.open("2_pag/l_c.html", '_self') //file
     
